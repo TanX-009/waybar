@@ -1,4 +1,4 @@
-@import "../../.colors/gtk/colors.css";
+@import "../../.colors/generated/gtk/colors.css";
 
 * {
   border: none;
@@ -21,8 +21,9 @@ window#waybar {
 }
 
 tooltip {
-  background: @surface;
-  border-color: @surfaceContainer;
+  color: @onPrimary;
+  background: @primary;
+  border-color: @onPrimaryContainer;
 
   border-radius: 4px;
   border-width: 2px;
